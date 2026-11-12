@@ -1,0 +1,109 @@
+body {
+    background-color: #fff3e0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #8b4513;
+}
+
+p {
+    color: #5d4037;
+    font-size: 20px;
+}
+nav {
+    background-color: #8b4513;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+section {
+    padding: 50px;
+    margin: 20px;
+}
+section {
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+nav a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+.boton-menu {
+    display: inline-block;
+    background-color: #8b4513;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.boton-menu:hover {
+    background-color: #a0522d;
+}
+
+.contenedor-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto 0;
+}
+
+.producto {
+    background-color: #f5e1c8;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px; 
+}
+
+.contenedor-contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto 0;
+}
+
+.contacto,
+.numero {
+    background-color: #f5e1c8;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contacto p,
+.numero p {
+    font-size: 16px;
+}
+
+.numero {
+    grid-column: 1 / -1;
+    width: calc(50% - 10px);
+    justify-self: center;
+}
+
+.contenedor-info{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto 0;
+}
+
+.info{
+       background-color: #f5e1c8;
+    padding: 20px;
+    border-radius: 15px;
+}
